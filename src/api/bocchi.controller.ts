@@ -25,5 +25,4 @@ export class BocchiController {
   async getMovie(): Promise<Anime> {
     return await this.bocchiService.getAnime(55357);
   }
-
 }
